@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Que Pollo! - Un Negocio Familiar</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Acerca de Nosotros</a>
+            <a href="#event">Receta Semanal</a>
+            <a href="#menu-list">Menú</a>
+            <a href="#contact">Contacto y Horarios</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">Que Pollo!</h1>
+            <h2>Alimentos que se adaptan a tu estilo de vida.</h2>
+            <p>¡Especializados en cocina!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Que Pollo!</h1>
+          <p class="header-p"> Este es un nuevo emprendimiento familiar, donde todo lo que 
+            cae en nuestros manos es tratado con Amor. Es por ello que nuestros productos son los 
+            mejores! </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">Lo que encontrarás en nuestra Pollería</h2>
+              <p></p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Productos de la mejor calidad.</li>
+                  <li><i class="fa fa-check"></i>Una excelente atención al cliente.</li>
+                  <li><i class="fa fa-check"></i>Mejores precios del mercado.</li>
+                  <li><i class="fa fa-check"></i>Especialidades de la Abuela.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="img/res01.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- event -->
+  <section id="event">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Receta de la Semana!</h1>
+            <p class="header-p">Para sorprender a la familia</p>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-6 col-sm-6 left-images">
+                <img src="img/recetasemanalpolloconpapas.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>Pollo con Papas</h2>
+                  <p>El pollo al horno con papas es una receta muy completa que gustará tanto a niños 
+                    como los más mayores de la casa. Es muy fácil de hacer y no requiere esfuerzo en 
+                    la cocina.</p>
+                  <address>
+                              <strong>Tiempo de Elaboración: </strong>
+                              1:30hs aprox.
+                              
+                            </address>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ event -->
+  <!-- menu -->
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Lista de Precios</h1>
+          <p class="header-p"></p>
+        </div>
+        <div class="col-md-12  text-center gallery-trigger">
+          <ul>
+            <li><a class="filter" data-filter="all">Todos los Productos</a></li>
+            <li><a class="filter" data-filter=".category-1">En Promoción</a></li>
+            <li><a class="filter" data-filter=".category-2">Clásicos</a></li>
+            <li><a class="filter" data-filter=".category-3">Especialidades</a></li>
+          </ul>
+        </div>
+        <div id="Container">
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Pechuga de Pollo</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$100</span>
+            </span>
+            <span class="menu-subtitle">Precio puesto por Kg</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">a</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">b</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-1 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">c</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">d</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">e</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">F</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-2 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">g</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">h</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">i</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">j</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+          <div class="mix category-3 menu-restaurant" data-myorder="2">
+            <span class="clearfix">
+                        <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">k</a>
+                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+            <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ menu -->
+  <!-- contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="header-h">Contacto y Horario de Atención</h1>
+          <p class="header-p"> </p>
+        </div>
+      </div>
+      <div class="row msg-row">
+        <div class="col-md-4 col-sm-4 mr-15">
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Número de Contacto</h4>
+              <p class="light-blue regular alt-p">+54 3815621506 - <span class="contacts-sp">Contacto por WhatsApp</span></p>
+            </div>
+          </div>
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Horario de Atención</h4>
+              <p class="light-blue regular alt-p"> Lunes - Sábado 9:00am - 13:00pm, 6:00pm - 10:00pm</p>
+              <p class="light-blue regular alt-p">
+                Domingo 9:00am - 14:00pm
+              </p>
+            </div>
+          </div>
+        </div>
+       
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / contact -->
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">Que Pollo!</h4>
+            <address>Av. Independencia 4250<br>Block 3 Departamento C <br>Planta baja frente a la plaza</address>
+            <div class="social-list">
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <p class="copyright clear-float">
+              © Que Pollo! . Todos los derechos reservados
+              <div class="credits">
+                
+                Diseñado por <a href="https://www.instagram.com/william_wiernes" target="_blank">William Wiernes</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
